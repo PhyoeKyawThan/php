@@ -1,0 +1,10 @@
+.space{
+    display: inline-block;
+    width: 10px;
+    
+}
+
+.star{
+    display: inline-block;
+    margin-left: 10px;
+}
