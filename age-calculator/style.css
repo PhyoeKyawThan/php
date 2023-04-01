@@ -1,0 +1,33 @@
+*{
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin-top: 100px;
+    height: 250px;
+    background-color: bisque;
+    text-align: center;
+}
+
+label{
+    display: block;
+    padding: 10px;
+}
+.topic{
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+input{
+    width: 100px;
+}
+
+.display-age{
+    display: block;
+    margin-top: 50px;
+    font-size: 15px;
+}
