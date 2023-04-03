@@ -79,7 +79,7 @@ input:focus{
 
 input[type=submit], button{
     border: none;
-    padding: 15px 85px 15px 50px;
+    padding: 15px 85px 15px 40px;
     margin-top: 50px;
     width: 5em;
     border-radius: 10px;

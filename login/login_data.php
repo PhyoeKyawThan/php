@@ -13,6 +13,7 @@ session_start();
 </head>
 <body>
     <div class="container">
+    <span class="header">LOGIN SUCCESSFUL</span>
         <?php
             if($_GET['email']==$_SESSION['email'] or $_GET['password']==$_SESSION['password']){
             echo "<span class='data'>Your Name is ". $_SESSION['name']. "</span> </br>";
