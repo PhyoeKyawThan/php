@@ -1,0 +1,88 @@
+*{
+    margin: auto;
+    width: 100%;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+}
+
+.container{
+    margin: 120px auto;
+    background-color: black;
+    color: green;
+    width: 600px;
+    border: 2px solid red;
+    box-shadow: 0 0 10px 10px red;
+}
+
+.header{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.alert{
+    padding: 5px;
+    background-color: green;
+    color: white;
+    width: 400px;
+    margin: 10px auto;
+}
+textarea{
+    display: block;
+    padding: 10px;
+    background-color: burlywood;
+    width: 300px;
+    border-radius: 10px;
+}
+
+textarea:focus-visible{
+    background-color: black;
+    color: green;
+}
+
+input[type=text]{
+    width: 310px;
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type=text]:focus-visible{
+    color: green;
+    background-color: black;
+    border: none;
+}
+
+input[type=submit]{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+input[type=submit]:hover{
+    background-color: green;
+    color: white;
+}
+
+
+button{
+    color: green;
+    background-color: brown;
+    border: none;
+}
+
+button a{
+    text-decoration: none;
+    color: green;
+}
+
+.collection div{
+    /* display: inline-block; */
+}
